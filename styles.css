@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: auto 0;
+
+}
+
+:root{
+    --background: #552323;
+    --card: #802424;
+}
+
+body{
+    font-family: "Anton SC", sans-serif;
+    background-color: var(--background);
+    color: #301111;
+}
+section{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+div{
+    width: 400px;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+table{
+    width: 400px;
+    text-align: center;
+}
+.card{
+    background-color: var(--card);
+    padding: 0.5rem;
+    border: 5px solid #aa1c1c;
+    transition: transform 2s ease;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+li{
+    transition: transform 2s ease;
+}
+li:hover{
+    transform: scale(1.05);
+}
